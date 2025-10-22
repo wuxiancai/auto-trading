@@ -24,14 +24,21 @@ VENV_DIR="${REPO_DIR}/.venv"
 # Use sudo if not root
 SUDO_BIN=""
 if [[ ${EUID:-$(id -u)} -ne 0 ]]; then
-  SUDO_BIN="sudo"
+  echo "需要以 root 权限运行：请使用 sudo ./deploy.sh" >&2
+  exit 1
 fi
 RUN_USER="${SUDO_USER:-$(id -un)}"
 
+# 确认 systemctl 可用
+if ! command -v systemctl >/dev/null 2>&1; then
+  echo "未检测到 systemctl 或 systemd 未运行。请确认服务器是 systemd 系统。" >&2
+  exit 1
+fi
+
 # Ensure Python tooling on Ubuntu
 if command -v apt-get >/dev/null 2>&1; then
-  ${SUDO_BIN} apt-get update -y
-  ${SUDO_BIN} apt-get install -y python3 python3-venv python3-pip
+  apt-get update -y
+  apt-get install -y python3 python3-venv python3-pip
 fi
 
 # Create venv
@@ -65,12 +72,12 @@ WantedBy=multi-user.target
 EOF
 
 echo "Creating unit: ${UNIT_FILE}"
-echo "${UNIT_CONTENT}" | ${SUDO_BIN} tee "${UNIT_FILE}" >/dev/null
+echo "${UNIT_CONTENT}" > "${UNIT_FILE}"
 
 # Reload and start service
-${SUDO_BIN} systemctl daemon-reload
-${SUDO_BIN} systemctl enable "${SERVICE_NAME}"
-${SUDO_BIN} systemctl restart "${SERVICE_NAME}"
+systemctl daemon-reload
+systemctl enable "${SERVICE_NAME}"
+systemctl restart "${SERVICE_NAME}"
 
 cat <<MSG
 Service '${SERVICE_NAME}' deployed and started.
