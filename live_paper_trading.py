@@ -216,6 +216,13 @@ class LivePaperTrader:
             "final_usdt": final_equity * self.init_total,
             "max_drawdown": max_dd,
             "generated_at": int(time.time()),
+            # extra fields for Web monitor
+            "position": self.position,
+            "entry_price": float(self.entry_price) if self.entry_price is not None else None,
+            "equity_norm": self.equity,
+            "fee_mode": self.params.fee_mode,
+            "leverage": self.params.leverage,
+            "trade_count": len(self.trades),
         }
         with open(path, "w") as f:
             json.dump(out, f, indent=2)
