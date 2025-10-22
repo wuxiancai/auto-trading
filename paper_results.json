@@ -1,0 +1,25 @@
+{
+  "symbol": "BTCUSDT",
+  "interval": "5m",
+  "init_total": 1000.0,
+  "params": {
+    "rsi_low": 30,
+    "rsi_high": 70,
+    "bb_width_min": 0.05,
+    "width_slope_min": 0.0,
+    "stop_atr": 1.5,
+    "fee_mode": "maker",
+    "taker_fee": 5e-05,
+    "maker_fee": 1e-05,
+    "leverage": 10.0,
+    "bb_window": 20,
+    "bb_mult": 2.0,
+    "ma_slope_min": 0.0001
+  },
+  "trades": [],
+  "equity_points": [],
+  "final_equity": 1.0,
+  "final_usdt": 1000.0,
+  "max_drawdown": 0.0,
+  "generated_at": 1761101700
+}

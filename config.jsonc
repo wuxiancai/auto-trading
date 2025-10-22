@@ -1,0 +1,142 @@
+// 用法示例:
+// - 直接使用默认组合: python3 bb_cycle_backtest.py --portfolio "30m:0.7,5m:0.3" --fee_mode maker --max_dd_limit 0.10
+// - 从配置读取默认: 直接运行 python3 bb_cycle_backtest.py（脚本会读取 defaults）
+// - 单周期回测: python3 bb_cycle_backtest.py --interval 30m --fee_mode maker --max_dd_limit 0.10
+// - 切换持仓并运行: python3 bb_cycle_backtest.py --concurrent 5m_only 或 30m_only
+
+// 字段说明:
+// defaults.symbol           交易品种（如 BTCUSDT）。
+// defaults.portfolio_spec   组合权重，如 '30m:0.7,5m:0.3'。
+// defaults.fee_mode         手续费模式：maker/taker/both。
+// defaults.max_dd_limit     最大回撤约束（0.10=10%），null 表示不约束。
+// defaults.concurrent       并发持仓：both/5m_only/30m_only。
+// defaults.init_total       初始资金，组合权益与回撤按此计算。
+// defaults.opt_grid         优化参数搜索范围，越大越耗时。
+
+// 并发说明:
+// - both: 两个周期同时持仓，按权重独立运作后合成权益曲线。
+// - 5m_only: 只运行 5m 子策略（权重归一为 1.0）。
+// - 30m_only: 只运行 30m 子策略（权重归一为 1.0）。
+
+// 参数调整影响:
+// - rsi_low/high: 更宽松→入场更频繁、收益机会更多，但噪音与回撤可能增大。
+// - bb_width_min: 提高下限可过滤窄震荡段，交易更少、回撤更低，但可能错过收益。
+// - width_slope_min: 斜率为正更偏趋势扩张段，减少震荡反复。
+// - stop_atr: 止损更宽胜率可能提升，但单笔亏损变大、回撤可能上升。
+// - bb_window/bb_mult: 更保守的窗口/倍数减少触发次数。
+// - ma_slope_min: 提高阈值更保守（交易更少、回撤更低）。
+// - leverage: 杠杆线性放大收益与回撤，建议结合 max_dd_limit 约束。
+// - fee_mode: maker 成本低更适合高频；taker 成本高更适合低频。
+// - weights: 提高 5m 权重通常提升收益与波动；提高 30m 更稳健。
+
+// 期末权益说明: 例如 1.4797 ≈ 147.97%，初始 1000 变为约 1479.7。
+{
+  "defaults": {
+    "symbol": "BTCUSDT",
+    "portfolio_spec": "30m:0.7,5m:0.3",
+    "fee_mode": "maker",
+    "max_dd_limit": 0.1,
+    "concurrent": "both",
+    "init_total": 1000.0,
+    "opt_grid": {
+      "rsi_low": [
+        30,
+        35
+      ],
+      "rsi_high": [
+        65,
+        70
+      ],
+      "bb_width_min": [
+        0.0,
+        0.02,
+        0.03
+      ],
+      "width_slope_min": [
+        0.0,
+        0.0001,
+        0.0002
+      ],
+      "stop_atr": [
+        1.2,
+        1.5
+      ],
+      "bb_window": [
+        20
+      ],
+      "bb_mult": [
+        1.5,
+        2.0
+      ],
+      "leverage": [
+        5.0,
+        8.0,
+        10.0
+      ],
+      "ma_slope_min": [
+        0.0,
+        5e-05,
+        0.0001
+      ]
+    }
+  },
+  "portfolio": {
+    "spec": "30m:0.7,5m:0.3",
+    "concurrent": "both",
+    "sub_strategies": [
+      {
+        "interval": "30m",
+        "weight": 0.7,
+        "params": {
+          "rsi_low": 30,
+          "rsi_high": 65,
+          "bb_width_min": 0.02,
+          "width_slope_min": 0.0,
+          "stop_atr": 1.2,
+          "fee_mode": "maker",
+          "taker_fee": 5e-05,
+          "maker_fee": 1e-05,
+          "leverage": 10.0,
+          "bb_window": 20,
+          "bb_mult": 1.5,
+          "ma_slope_min": 0.0
+        },
+        "metrics": {
+          "win_rate": 0.75,
+          "total_return": 0.04313820574938032,
+          "max_drawdown": 0.013863835306109629,
+          "exit_count": 4
+        }
+      },
+      {
+        "interval": "5m",
+        "weight": 0.3,
+        "params": {
+          "rsi_low": 30,
+          "rsi_high": 70,
+          "bb_width_min": 0.0,
+          "width_slope_min": 0.0001,
+          "stop_atr": 1.5,
+          "fee_mode": "maker",
+          "taker_fee": 5e-05,
+          "maker_fee": 1e-05,
+          "leverage": 8.0,
+          "bb_window": 20,
+          "bb_mult": 2.0,
+          "ma_slope_min": 5e-05
+        },
+        "metrics": {
+          "win_rate": 0.4621212121212121,
+          "total_return": 0.6189685877245501,
+          "max_drawdown": 0.09225862836910934,
+          "exit_count": 132
+        }
+      }
+    ],
+    "combined": {
+      "final_equity": 1.2158873203419311,
+      "total_return": 0.21588732034193114,
+      "max_drawdown": 0.029745938764012377
+    }
+  }
+}

@@ -1,0 +1,5571 @@
+{
+  "criteria": {
+    "total_return_min": 0.2
+  },
+  "meets": [
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.21522474461321228,
+        "max_drawdown": 0.05302077518312181,
+        "exit_count": 61,
+        "final_equity": 1.2152247446132123
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.21522474461321228,
+        "max_drawdown": 0.05302077518312181,
+        "exit_count": 61,
+        "final_equity": 1.2152247446132123
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.24898623983950086,
+        "max_drawdown": 0.05302077518312153,
+        "exit_count": 61,
+        "final_equity": 1.2489862398395009
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.24898623983950086,
+        "max_drawdown": 0.05302077518312153,
+        "exit_count": 61,
+        "final_equity": 1.2489862398395009
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4426229508196721,
+        "total_return": 0.20676543515469326,
+        "max_drawdown": 0.08503251687909219,
+        "exit_count": 61,
+        "final_equity": 1.2067654351546933
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.2695949395357784,
+        "max_drawdown": 0.08389537064560844,
+        "exit_count": 59,
+        "final_equity": 1.2695949395357784
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.21091525324341776,
+        "max_drawdown": 0.08355342630513192,
+        "exit_count": 43,
+        "final_equity": 1.2109152532434178
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.23423249130127366,
+        "max_drawdown": 0.2089861707123029,
+        "exit_count": 89,
+        "final_equity": 1.2342324913012737
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.2695949395357784,
+        "max_drawdown": 0.08389537064560844,
+        "exit_count": 59,
+        "final_equity": 1.2695949395357784
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.21091525324341776,
+        "max_drawdown": 0.08355342630513192,
+        "exit_count": 43,
+        "final_equity": 1.2109152532434178
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4406779661016949,
+        "total_return": 0.20129662423168626,
+        "max_drawdown": 0.13317754788086295,
+        "exit_count": 59,
+        "final_equity": 1.2012966242316863
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.2695949395357784,
+        "max_drawdown": 0.08389537064560844,
+        "exit_count": 59,
+        "final_equity": 1.2695949395357784
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.21091525324341776,
+        "max_drawdown": 0.08355342630513192,
+        "exit_count": 43,
+        "final_equity": 1.2109152532434178
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.23423249130127366,
+        "max_drawdown": 0.2089861707123029,
+        "exit_count": 89,
+        "final_equity": 1.2342324913012737
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.2695949395357784,
+        "max_drawdown": 0.08389537064560844,
+        "exit_count": 59,
+        "final_equity": 1.2695949395357784
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.21091525324341776,
+        "max_drawdown": 0.08355342630513192,
+        "exit_count": 43,
+        "final_equity": 1.2109152532434178
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4406779661016949,
+        "total_return": 0.20129662423168626,
+        "max_drawdown": 0.13317754788086295,
+        "exit_count": 59,
+        "final_equity": 1.2012966242316863
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.21043607004707332,
+        "max_drawdown": 0.0990057966981044,
+        "exit_count": 75,
+        "final_equity": 1.2104360700470733
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.34625900760041173,
+        "max_drawdown": 0.08389537064560863,
+        "exit_count": 61,
+        "final_equity": 1.3462590076004117
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.23041313561164767,
+        "max_drawdown": 0.08299846172751688,
+        "exit_count": 44,
+        "final_equity": 1.2304131356116477
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.23423249130127366,
+        "max_drawdown": 0.2089861707123029,
+        "exit_count": 89,
+        "final_equity": 1.2342324913012737
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.21043607004707332,
+        "max_drawdown": 0.0990057966981044,
+        "exit_count": 75,
+        "final_equity": 1.2104360700470733
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.34625900760041173,
+        "max_drawdown": 0.08389537064560863,
+        "exit_count": 61,
+        "final_equity": 1.3462590076004117
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.23041313561164767,
+        "max_drawdown": 0.08299846172751688,
+        "exit_count": 44,
+        "final_equity": 1.2304131356116477
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4426229508196721,
+        "total_return": 0.27383652124764835,
+        "max_drawdown": 0.1331775478808633,
+        "exit_count": 61,
+        "final_equity": 1.2738365212476483
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.20297641300002156,
+        "max_drawdown": 0.09714328935183787,
+        "exit_count": 44,
+        "final_equity": 1.2029764130000216
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.21043607004707332,
+        "max_drawdown": 0.0990057966981044,
+        "exit_count": 75,
+        "final_equity": 1.2104360700470733
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.4053446295535663,
+        "max_drawdown": 0.0838953706456082,
+        "exit_count": 61,
+        "final_equity": 1.4053446295535663
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.23041313561164767,
+        "max_drawdown": 0.08299846172751688,
+        "exit_count": 44,
+        "final_equity": 1.2304131356116477
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.23423249130127366,
+        "max_drawdown": 0.2089861707123029,
+        "exit_count": 89,
+        "final_equity": 1.2342324913012737
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.21043607004707332,
+        "max_drawdown": 0.0990057966981044,
+        "exit_count": 75,
+        "final_equity": 1.2104360700470733
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.4053446295535663,
+        "max_drawdown": 0.0838953706456082,
+        "exit_count": 61,
+        "final_equity": 1.4053446295535663
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.23041313561164767,
+        "max_drawdown": 0.08299846172751688,
+        "exit_count": 44,
+        "final_equity": 1.2304131356116477
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4426229508196721,
+        "total_return": 0.3297436109678613,
+        "max_drawdown": 0.13317754788086253,
+        "exit_count": 61,
+        "final_equity": 1.3297436109678613
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.20297641300002156,
+        "max_drawdown": 0.09714328935183787,
+        "exit_count": 44,
+        "final_equity": 1.2029764130000216
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4383561643835616,
+        "total_return": 0.2290052205198041,
+        "max_drawdown": 0.12384089682105201,
+        "exit_count": 73,
+        "final_equity": 1.229005220519804
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.3334858870942392,
+        "max_drawdown": 0.10409208638760074,
+        "exit_count": 59,
+        "final_equity": 1.3334858870942392
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.2596480856482908,
+        "max_drawdown": 0.10405995836198889,
+        "exit_count": 43,
+        "final_equity": 1.2596480856482908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.2845764223878908,
+        "max_drawdown": 0.25637555761571723,
+        "exit_count": 89,
+        "final_equity": 1.2845764223878908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4383561643835616,
+        "total_return": 0.2290052205198041,
+        "max_drawdown": 0.12384089682105201,
+        "exit_count": 73,
+        "final_equity": 1.229005220519804
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.3334858870942392,
+        "max_drawdown": 0.10409208638760074,
+        "exit_count": 59,
+        "final_equity": 1.3334858870942392
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.2596480856482908,
+        "max_drawdown": 0.10405995836198889,
+        "exit_count": 43,
+        "final_equity": 1.2596480856482908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4880952380952381,
+        "total_return": 0.23179550132813898,
+        "max_drawdown": 0.22309259408791204,
+        "exit_count": 84,
+        "final_equity": 1.231795501328139
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4406779661016949,
+        "total_return": 0.2441397883103218,
+        "max_drawdown": 0.16411962603058294,
+        "exit_count": 59,
+        "final_equity": 1.2441397883103218
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.22449161072294532,
+        "max_drawdown": 0.12862768626383414,
+        "exit_count": 43,
+        "final_equity": 1.2244916107229453
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4383561643835616,
+        "total_return": 0.2290052205198041,
+        "max_drawdown": 0.12384089682105201,
+        "exit_count": 73,
+        "final_equity": 1.229005220519804
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.3334858870942392,
+        "max_drawdown": 0.10409208638760074,
+        "exit_count": 59,
+        "final_equity": 1.3334858870942392
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.2596480856482908,
+        "max_drawdown": 0.10405995836198889,
+        "exit_count": 43,
+        "final_equity": 1.2596480856482908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.2845764223878908,
+        "max_drawdown": 0.25637555761571723,
+        "exit_count": 89,
+        "final_equity": 1.2845764223878908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4383561643835616,
+        "total_return": 0.2290052205198041,
+        "max_drawdown": 0.12384089682105201,
+        "exit_count": 73,
+        "final_equity": 1.229005220519804
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4576271186440678,
+        "total_return": 0.3334858870942392,
+        "max_drawdown": 0.10409208638760074,
+        "exit_count": 59,
+        "final_equity": 1.3334858870942392
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.2596480856482908,
+        "max_drawdown": 0.10405995836198889,
+        "exit_count": 43,
+        "final_equity": 1.2596480856482908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4880952380952381,
+        "total_return": 0.23179550132813898,
+        "max_drawdown": 0.22309259408791204,
+        "exit_count": 84,
+        "final_equity": 1.231795501328139
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4406779661016949,
+        "total_return": 0.2441397883103218,
+        "max_drawdown": 0.16411962603058294,
+        "exit_count": 59,
+        "final_equity": 1.2441397883103218
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4883720930232558,
+        "total_return": 0.22449161072294532,
+        "max_drawdown": 0.12862768626383414,
+        "exit_count": 43,
+        "final_equity": 1.2244916107229453
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.2553037544121639,
+        "max_drawdown": 0.12384089682105236,
+        "exit_count": 75,
+        "final_equity": 1.255303754412164
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.4329886007816568,
+        "max_drawdown": 0.10409208638760058,
+        "exit_count": 61,
+        "final_equity": 1.4329886007816568
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.28500027309917564,
+        "max_drawdown": 0.10405995836198886,
+        "exit_count": 44,
+        "final_equity": 1.2850002730991756
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.2845764223878908,
+        "max_drawdown": 0.25637555761571723,
+        "exit_count": 89,
+        "final_equity": 1.2845764223878908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.2553037544121639,
+        "max_drawdown": 0.12384089682105236,
+        "exit_count": 75,
+        "final_equity": 1.255303754412164
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.4329886007816568,
+        "max_drawdown": 0.10409208638760058,
+        "exit_count": 61,
+        "final_equity": 1.4329886007816568
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.28500027309917564,
+        "max_drawdown": 0.10405995836198886,
+        "exit_count": 44,
+        "final_equity": 1.2850002730991756
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4880952380952381,
+        "total_return": 0.23179550132813898,
+        "max_drawdown": 0.22309259408791204,
+        "exit_count": 84,
+        "final_equity": 1.231795501328139
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4426229508196721,
+        "total_return": 0.33697563032521116,
+        "max_drawdown": 0.16411962603058305,
+        "exit_count": 61,
+        "final_equity": 1.3369756303252112
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.24913622472329755,
+        "max_drawdown": 0.12029000279686293,
+        "exit_count": 44,
+        "final_equity": 1.2491362247232976
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.2553037544121639,
+        "max_drawdown": 0.12384089682105236,
+        "exit_count": 75,
+        "final_equity": 1.255303754412164
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.5109859500031588,
+        "max_drawdown": 0.1040920863876012,
+        "exit_count": 61,
+        "final_equity": 1.5109859500031588
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.28500027309917564,
+        "max_drawdown": 0.10405995836198886,
+        "exit_count": 44,
+        "final_equity": 1.2850002730991756
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.47191011235955055,
+        "total_return": 0.2845764223878908,
+        "max_drawdown": 0.25637555761571723,
+        "exit_count": 89,
+        "final_equity": 1.2845764223878908
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4533333333333333,
+        "total_return": 0.2553037544121639,
+        "max_drawdown": 0.12384089682105236,
+        "exit_count": 75,
+        "final_equity": 1.255303754412164
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45901639344262296,
+        "total_return": 0.5109859500031588,
+        "max_drawdown": 0.1040920863876012,
+        "exit_count": 61,
+        "final_equity": 1.5109859500031588
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.28500027309917564,
+        "max_drawdown": 0.10405995836198886,
+        "exit_count": 44,
+        "final_equity": 1.2850002730991756
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 1.5,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.4880952380952381,
+        "total_return": 0.23179550132813898,
+        "max_drawdown": 0.22309259408791204,
+        "exit_count": 84,
+        "final_equity": 1.231795501328139
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4426229508196721,
+        "total_return": 0.4097470083265655,
+        "max_drawdown": 0.16411962603058347,
+        "exit_count": 61,
+        "final_equity": 1.4097470083265655
+      }
+    },
+    {
+      "interval": "30m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.5,
+        "total_return": 0.24913622472329755,
+        "max_drawdown": 0.12029000279686293,
+        "exit_count": 44,
+        "final_equity": 1.2491362247232976
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5222551928783383,
+        "total_return": 0.21460912002574983,
+        "max_drawdown": 0.0653424043540269,
+        "exit_count": 337,
+        "final_equity": 1.2146091200257498
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4336283185840708,
+        "total_return": 0.3360595710737986,
+        "max_drawdown": 0.1150968193715781,
+        "exit_count": 339,
+        "final_equity": 1.3360595710737986
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45652173913043476,
+        "total_return": 0.3418381704131763,
+        "max_drawdown": 0.05853577965164551,
+        "exit_count": 138,
+        "final_equity": 1.3418381704131763
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5245398773006135,
+        "total_return": 0.24214788200328563,
+        "max_drawdown": 0.060725749819239616,
+        "exit_count": 326,
+        "final_equity": 1.2421478820032856
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44376899696048633,
+        "total_return": 0.3844412754876996,
+        "max_drawdown": 0.11114747466720958,
+        "exit_count": 329,
+        "final_equity": 1.3844412754876996
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4621212121212121,
+        "total_return": 0.3674319163719655,
+        "max_drawdown": 0.058535779651645886,
+        "exit_count": 132,
+        "final_equity": 1.3674319163719655
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4217687074829932,
+        "total_return": 0.2736380295433656,
+        "max_drawdown": 0.1185541882264988,
+        "exit_count": 294,
+        "final_equity": 1.2736380295433656
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.43089430894308944,
+        "total_return": 0.2339038144882153,
+        "max_drawdown": 0.06656828850241464,
+        "exit_count": 123,
+        "final_equity": 1.2339038144882153
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5235109717868338,
+        "total_return": 0.22635629422624048,
+        "max_drawdown": 0.06534240435402686,
+        "exit_count": 319,
+        "final_equity": 1.2263562942262405
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43167701863354035,
+        "total_return": 0.3613445580055876,
+        "max_drawdown": 0.11647372415852376,
+        "exit_count": 322,
+        "final_equity": 1.3613445580055876
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45588235294117646,
+        "total_return": 0.3543354957337457,
+        "max_drawdown": 0.05853577965164551,
+        "exit_count": 136,
+        "final_equity": 1.3543354957337457
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5258064516129032,
+        "total_return": 0.25152291981526975,
+        "max_drawdown": 0.06072574981923882,
+        "exit_count": 310,
+        "final_equity": 1.2515229198152698
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4426751592356688,
+        "total_return": 0.40767420845738145,
+        "max_drawdown": 0.11206665843298208,
+        "exit_count": 314,
+        "final_equity": 1.4076742084573814
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.46153846153846156,
+        "total_return": 0.38016761124891807,
+        "max_drawdown": 0.058535779651645886,
+        "exit_count": 130,
+        "final_equity": 1.380167611248918
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4199288256227758,
+        "total_return": 0.294336105526382,
+        "max_drawdown": 0.11718214471508766,
+        "exit_count": 281,
+        "final_equity": 1.294336105526382
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4297520661157025,
+        "total_return": 0.2453958838926822,
+        "max_drawdown": 0.06656828850241464,
+        "exit_count": 121,
+        "final_equity": 1.2453958838926822
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.521613832853026,
+        "total_return": 0.221692181930367,
+        "max_drawdown": 0.06763293145620937,
+        "exit_count": 347,
+        "final_equity": 1.221692181930367
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4355300859598854,
+        "total_return": 0.3438508781652254,
+        "max_drawdown": 0.11948779448641975,
+        "exit_count": 349,
+        "final_equity": 1.3438508781652254
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4652777777777778,
+        "total_return": 0.3448407749737228,
+        "max_drawdown": 0.0651227078789707,
+        "exit_count": 144,
+        "final_equity": 1.3448407749737228
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5238095238095238,
+        "total_return": 0.2493915377587499,
+        "max_drawdown": 0.06302759076767059,
+        "exit_count": 336,
+        "final_equity": 1.24939153775875
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44542772861356933,
+        "total_return": 0.39251472322977987,
+        "max_drawdown": 0.11118942778748338,
+        "exit_count": 339,
+        "final_equity": 1.3925147232297799
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47101449275362317,
+        "total_return": 0.3704917915483208,
+        "max_drawdown": 0.06512270787897129,
+        "exit_count": 138,
+        "final_equity": 1.3704917915483208
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.423841059602649,
+        "total_return": 0.2804247178944481,
+        "max_drawdown": 0.12359572359160255,
+        "exit_count": 302,
+        "final_equity": 1.2804247178944481
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4375,
+        "total_return": 0.23520004716097365,
+        "max_drawdown": 0.07309901750501935,
+        "exit_count": 128,
+        "final_equity": 1.2352000471609736
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5227963525835866,
+        "total_return": 0.2335078604428107,
+        "max_drawdown": 0.06763293145620924,
+        "exit_count": 329,
+        "final_equity": 1.2335078604428107
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43373493975903615,
+        "total_return": 0.36928331593098873,
+        "max_drawdown": 0.12152715898815968,
+        "exit_count": 332,
+        "final_equity": 1.3692833159309887
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4647887323943662,
+        "total_return": 0.3573660653103652,
+        "max_drawdown": 0.0651227078789707,
+        "exit_count": 142,
+        "final_equity": 1.3573660653103652
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.525,
+        "total_return": 0.25882124663493666,
+        "max_drawdown": 0.06302759076767077,
+        "exit_count": 320,
+        "final_equity": 1.2588212466349367
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4444444444444444,
+        "total_return": 0.4158831403644814,
+        "max_drawdown": 0.11324801223230024,
+        "exit_count": 324,
+        "final_equity": 1.4158831403644814
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47058823529411764,
+        "total_return": 0.38325598483615697,
+        "max_drawdown": 0.06512270787897129,
+        "exit_count": 136,
+        "final_equity": 1.383255984836157
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.42214532871972316,
+        "total_return": 0.30123308533226134,
+        "max_drawdown": 0.12223152764812355,
+        "exit_count": 289,
+        "final_equity": 1.3012330853322613
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 5.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4365079365079365,
+        "total_return": 0.2467041891400319,
+        "max_drawdown": 0.07309901750501935,
+        "exit_count": 126,
+        "final_equity": 1.246704189140032
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5222551928783383,
+        "total_return": 0.35452869705905554,
+        "max_drawdown": 0.10276598505215899,
+        "exit_count": 337,
+        "final_equity": 1.3545286970590555
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5367647058823529,
+        "total_return": 0.27040094965193995,
+        "max_drawdown": 0.11873654465724655,
+        "exit_count": 136,
+        "final_equity": 1.27040094965194
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4336283185840708,
+        "total_return": 0.557056861062381,
+        "max_drawdown": 0.17953784540512854,
+        "exit_count": 339,
+        "final_equity": 1.557056861062381
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45652173913043476,
+        "total_return": 0.5801081863552207,
+        "max_drawdown": 0.09225862836910913,
+        "exit_count": 138,
+        "final_equity": 1.5801081863552207
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.285286254112318,
+        "max_drawdown": 0.06288518581954901,
+        "exit_count": 60,
+        "final_equity": 1.285286254112318
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5245398773006135,
+        "total_return": 0.4040289435045088,
+        "max_drawdown": 0.09566197891345703,
+        "exit_count": 326,
+        "final_equity": 1.4040289435045088
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5307692307692308,
+        "total_return": 0.29335058985985074,
+        "max_drawdown": 0.11891192342792582,
+        "exit_count": 130,
+        "final_equity": 1.2933505898598507
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44376899696048633,
+        "total_return": 0.6483254806792618,
+        "max_drawdown": 0.17330507411040924,
+        "exit_count": 329,
+        "final_equity": 1.6483254806792618
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4621212121212121,
+        "total_return": 0.6286629823245351,
+        "max_drawdown": 0.09225862836910934,
+        "exit_count": 132,
+        "final_equity": 1.628662982324535
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3020256538608659,
+        "max_drawdown": 0.056319656222563026,
+        "exit_count": 58,
+        "final_equity": 1.3020256538608659
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4217687074829932,
+        "total_return": 0.4475636039211528,
+        "max_drawdown": 0.185270336689165,
+        "exit_count": 294,
+        "final_equity": 1.4475636039211528
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.43089430894308944,
+        "total_return": 0.3832271940688501,
+        "max_drawdown": 0.10462818566261008,
+        "exit_count": 123,
+        "final_equity": 1.38322719406885
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.24816590552426088,
+        "max_drawdown": 0.06839279275452224,
+        "exit_count": 55,
+        "final_equity": 1.2481659055242609
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5235109717868338,
+        "total_return": 0.37570788233456653,
+        "max_drawdown": 0.10276598505215871,
+        "exit_count": 319,
+        "final_equity": 1.3757078823345665
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5413533834586466,
+        "total_return": 0.286690499231254,
+        "max_drawdown": 0.11029428014062924,
+        "exit_count": 133,
+        "final_equity": 1.286690499231254
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43167701863354035,
+        "total_return": 0.6045372637096273,
+        "max_drawdown": 0.182704851293208,
+        "exit_count": 322,
+        "final_equity": 1.6045372637096273
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45588235294117646,
+        "total_return": 0.6037946364686195,
+        "max_drawdown": 0.09225862836910913,
+        "exit_count": 136,
+        "final_equity": 1.6037946364686195
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.285286254112318,
+        "max_drawdown": 0.06288518581954901,
+        "exit_count": 60,
+        "final_equity": 1.285286254112318
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5258064516129032,
+        "total_return": 0.42117927051365944,
+        "max_drawdown": 0.09566197891345699,
+        "exit_count": 310,
+        "final_equity": 1.4211792705136594
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5354330708661418,
+        "total_return": 0.30993440819116547,
+        "max_drawdown": 0.1102942801406291,
+        "exit_count": 127,
+        "final_equity": 1.3099344081911655
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4426751592356688,
+        "total_return": 0.692867999536702,
+        "max_drawdown": 0.17463603245745793,
+        "exit_count": 314,
+        "final_equity": 1.692867999536702
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.46153846153846156,
+        "total_return": 0.6530772881394769,
+        "max_drawdown": 0.09225862836910934,
+        "exit_count": 130,
+        "final_equity": 1.6530772881394769
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3020256538608659,
+        "max_drawdown": 0.056319656222563026,
+        "exit_count": 58,
+        "final_equity": 1.3020256538608659
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4199288256227758,
+        "total_return": 0.4855113598292975,
+        "max_drawdown": 0.18321003765573102,
+        "exit_count": 281,
+        "final_equity": 1.4855113598292975
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4297520661157025,
+        "total_return": 0.40396231980943886,
+        "max_drawdown": 0.10462818566261008,
+        "exit_count": 121,
+        "final_equity": 1.4039623198094389
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.24816590552426088,
+        "max_drawdown": 0.06839279275452224,
+        "exit_count": 55,
+        "final_equity": 1.2481659055242609
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.521613832853026,
+        "total_return": 0.36711937179804877,
+        "max_drawdown": 0.10628388388303808,
+        "exit_count": 347,
+        "final_equity": 1.3671193717980488
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5422535211267606,
+        "total_return": 0.27491990746282124,
+        "max_drawdown": 0.11873654465724648,
+        "exit_count": 142,
+        "final_equity": 1.2749199074628212
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4355300859598854,
+        "total_return": 0.571530084501886,
+        "max_drawdown": 0.18705107069500596,
+        "exit_count": 349,
+        "final_equity": 1.571530084501886
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4652777777777778,
+        "total_return": 0.5857288073353346,
+        "max_drawdown": 0.1024098815932294,
+        "exit_count": 144,
+        "final_equity": 1.5857288073353346
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.285286254112318,
+        "max_drawdown": 0.06288518581954901,
+        "exit_count": 60,
+        "final_equity": 1.285286254112318
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5238095238095238,
+        "total_return": 0.41707973511208274,
+        "max_drawdown": 0.09920773131929415,
+        "exit_count": 336,
+        "final_equity": 1.4170797351120827
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5367647058823529,
+        "total_return": 0.2979511820995351,
+        "max_drawdown": 0.11891192342792577,
+        "exit_count": 136,
+        "final_equity": 1.297951182099535
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44542772861356933,
+        "total_return": 0.6636470682072999,
+        "max_drawdown": 0.17476108946391467,
+        "exit_count": 339,
+        "final_equity": 1.6636470682073
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47101449275362317,
+        "total_return": 0.6344563181271297,
+        "max_drawdown": 0.1024098815932299,
+        "exit_count": 138,
+        "final_equity": 1.6344563181271297
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3020256538608659,
+        "max_drawdown": 0.056319656222563026,
+        "exit_count": 58,
+        "final_equity": 1.3020256538608659
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.423841059602649,
+        "total_return": 0.45985169411078686,
+        "max_drawdown": 0.19273106778629087,
+        "exit_count": 302,
+        "final_equity": 1.4598516941107869
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4375,
+        "total_return": 0.38551867065281353,
+        "max_drawdown": 0.11464111038008619,
+        "exit_count": 128,
+        "final_equity": 1.3855186706528135
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.24816590552426088,
+        "max_drawdown": 0.06839279275452224,
+        "exit_count": 55,
+        "final_equity": 1.2481659055242609
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5227963525835866,
+        "total_return": 0.3884954227683388,
+        "max_drawdown": 0.10628388388303754,
+        "exit_count": 329,
+        "final_equity": 1.3884954227683388
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5467625899280576,
+        "total_return": 0.2912674007860596,
+        "max_drawdown": 0.110294280140629,
+        "exit_count": 139,
+        "final_equity": 1.2912674007860596
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43373493975903615,
+        "total_return": 0.6194518290767761,
+        "max_drawdown": 0.19002505394767535,
+        "exit_count": 332,
+        "final_equity": 1.619451829076776
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4647887323943662,
+        "total_return": 0.6094995127925145,
+        "max_drawdown": 0.1024098815932294,
+        "exit_count": 142,
+        "final_equity": 1.6094995127925145
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.285286254112318,
+        "max_drawdown": 0.06288518581954901,
+        "exit_count": 60,
+        "final_equity": 1.285286254112318
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.525,
+        "total_return": 0.43438947859539234,
+        "max_drawdown": 0.0992077313192941,
+        "exit_count": 320,
+        "final_equity": 1.4343894785953923
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5413533834586466,
+        "total_return": 0.31459399092153184,
+        "max_drawdown": 0.11029428014062896,
+        "exit_count": 133,
+        "final_equity": 1.3145939909215318
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4444444444444444,
+        "total_return": 0.7086036206457218,
+        "max_drawdown": 0.1777800327344148,
+        "exit_count": 324,
+        "final_equity": 1.7086036206457218
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47058823529411764,
+        "total_return": 0.6589574683497297,
+        "max_drawdown": 0.1024098815932299,
+        "exit_count": 136,
+        "final_equity": 1.6589574683497297
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3020256538608659,
+        "max_drawdown": 0.056319656222563026,
+        "exit_count": 58,
+        "final_equity": 1.3020256538608659
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.42214532871972316,
+        "total_return": 0.4981215812509081,
+        "max_drawdown": 0.1906896355472802,
+        "exit_count": 289,
+        "final_equity": 1.498121581250908
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4365079365079365,
+        "total_return": 0.4062881465387025,
+        "max_drawdown": 0.11464111038008619,
+        "exit_count": 126,
+        "final_equity": 1.4062881465387025
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 8.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.24816590552426088,
+        "max_drawdown": 0.06839279275452224,
+        "exit_count": 55,
+        "final_equity": 1.2481659055242609
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5222551928783383,
+        "total_return": 0.45209515715198223,
+        "max_drawdown": 0.1269968560307923,
+        "exit_count": 337,
+        "final_equity": 1.4520951571519822
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5367647058823529,
+        "total_return": 0.34341268154808846,
+        "max_drawdown": 0.14683406482992448,
+        "exit_count": 136,
+        "final_equity": 1.3434126815480885
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4336283185840708,
+        "total_return": 0.7102217663478083,
+        "max_drawdown": 0.22137938847889727,
+        "exit_count": 339,
+        "final_equity": 1.7102217663478083
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45652173913043476,
+        "total_return": 0.753173140479036,
+        "max_drawdown": 0.11417383578322088,
+        "exit_count": 138,
+        "final_equity": 1.753173140479036
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.3600904698249754,
+        "max_drawdown": 0.07842536261929572,
+        "exit_count": 60,
+        "final_equity": 1.3600904698249754
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5245398773006135,
+        "total_return": 0.5187543897477287,
+        "max_drawdown": 0.11834599311786126,
+        "exit_count": 326,
+        "final_equity": 1.5187543897477287
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5307692307692308,
+        "total_return": 0.3738439181528306,
+        "max_drawdown": 0.1470462745798557,
+        "exit_count": 130,
+        "final_equity": 1.3738439181528306
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44376899696048633,
+        "total_return": 0.8365081126430158,
+        "max_drawdown": 0.21289997407688216,
+        "exit_count": 329,
+        "final_equity": 1.8365081126430158
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4621212121212121,
+        "total_return": 0.8208256434449046,
+        "max_drawdown": 0.11417383578321971,
+        "exit_count": 132,
+        "final_equity": 1.8208256434449046
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3822664706229679,
+        "max_drawdown": 0.07007902277222638,
+        "exit_count": 58,
+        "final_equity": 1.382266470622968
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4217687074829932,
+        "total_return": 0.5660167395904689,
+        "max_drawdown": 0.22787341910982428,
+        "exit_count": 294,
+        "final_equity": 1.566016739590469
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.43089430894308944,
+        "total_return": 0.48584840972489807,
+        "max_drawdown": 0.12924456605475185,
+        "exit_count": 123,
+        "final_equity": 1.485848409724898
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.31144312047520084,
+        "max_drawdown": 0.08506673882818146,
+        "exit_count": 55,
+        "final_equity": 1.3114431204752008
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5235109717868338,
+        "total_return": 0.4806733477541658,
+        "max_drawdown": 0.12699685603079197,
+        "exit_count": 319,
+        "final_equity": 1.4806733477541658
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5413533834586466,
+        "total_return": 0.36503931118911814,
+        "max_drawdown": 0.13634870407298647,
+        "exit_count": 133,
+        "final_equity": 1.3650393111891181
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43167701863354035,
+        "total_return": 0.7757194837160357,
+        "max_drawdown": 0.2256659836857176,
+        "exit_count": 322,
+        "final_equity": 1.7757194837160357
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.45588235294117646,
+        "total_return": 0.7861549077932428,
+        "max_drawdown": 0.11417383578322088,
+        "exit_count": 136,
+        "final_equity": 1.7861549077932428
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.3600904698249754,
+        "max_drawdown": 0.07842536261929572,
+        "exit_count": 60,
+        "final_equity": 1.3600904698249754
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5258064516129032,
+        "total_return": 0.5421218758264217,
+        "max_drawdown": 0.11834599311786115,
+        "exit_count": 310,
+        "final_equity": 1.5421218758264217
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5354330708661418,
+        "total_return": 0.3959604382739845,
+        "max_drawdown": 0.13634870407298694,
+        "exit_count": 127,
+        "final_equity": 1.3959604382739845
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4426751592356688,
+        "total_return": 0.8988110534224649,
+        "max_drawdown": 0.21445464503717573,
+        "exit_count": 314,
+        "final_equity": 1.898811053422465
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.46153846153846156,
+        "total_return": 0.8550801310966105,
+        "max_drawdown": 0.11417383578321971,
+        "exit_count": 130,
+        "final_equity": 1.8550801310966105
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3822664706229679,
+        "max_drawdown": 0.07007902277222638,
+        "exit_count": 58,
+        "final_equity": 1.382266470622968
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5071942446043165,
+        "total_return": 0.20693521603510412,
+        "max_drawdown": 0.13602778068736318,
+        "exit_count": 278,
+        "final_equity": 1.2069352160351041
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4199288256227758,
+        "total_return": 0.6176144706162918,
+        "max_drawdown": 0.2254079297123453,
+        "exit_count": 281,
+        "final_equity": 1.6176144706162918
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4297520661157025,
+        "total_return": 0.5138011004102805,
+        "max_drawdown": 0.12924456605475185,
+        "exit_count": 121,
+        "final_equity": 1.5138011004102805
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 30,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.31144312047520084,
+        "max_drawdown": 0.08506673882818146,
+        "exit_count": 55,
+        "final_equity": 1.3114431204752008
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.521613832853026,
+        "total_return": 0.46892428879790105,
+        "max_drawdown": 0.13127530735205373,
+        "exit_count": 347,
+        "final_equity": 1.468924288797901
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5422535211267606,
+        "total_return": 0.34936000504846887,
+        "max_drawdown": 0.14683406482992434,
+        "exit_count": 142,
+        "final_equity": 1.3493600050484689
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4355300859598854,
+        "total_return": 0.7300424696314896,
+        "max_drawdown": 0.2302957605822051,
+        "exit_count": 349,
+        "final_equity": 1.7300424696314896
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4652777777777778,
+        "total_return": 0.760934484377167,
+        "max_drawdown": 0.1265481596598844,
+        "exit_count": 144,
+        "final_equity": 1.760934484377167
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.3600904698249754,
+        "max_drawdown": 0.07842536261929572,
+        "exit_count": 60,
+        "final_equity": 1.3600904698249754
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5238095238095238,
+        "total_return": 0.5363560720045637,
+        "max_drawdown": 0.12266684095981815,
+        "exit_count": 336,
+        "final_equity": 1.5363560720045637
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5367647058823529,
+        "total_return": 0.37992596154315383,
+        "max_drawdown": 0.14704627457985495,
+        "exit_count": 136,
+        "final_equity": 1.3799259615431538
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.44542772861356933,
+        "total_return": 0.8577924180442442,
+        "max_drawdown": 0.21572549887509557,
+        "exit_count": 339,
+        "final_equity": 1.8577924180442442
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47101449275362317,
+        "total_return": 0.828886486764375,
+        "max_drawdown": 0.1265481596598855,
+        "exit_count": 138,
+        "final_equity": 1.828886486764375
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3822664706229679,
+        "max_drawdown": 0.07007902277222638,
+        "exit_count": 58,
+        "final_equity": 1.382266470622968
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.423841059602649,
+        "total_return": 0.5825853934010623,
+        "max_drawdown": 0.23671542483662078,
+        "exit_count": 302,
+        "final_equity": 1.5825853934010623
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4375,
+        "total_return": 0.4888952519925449,
+        "max_drawdown": 0.14140836318816713,
+        "exit_count": 128,
+        "final_equity": 1.488895251992545
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 65,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.31144312047520084,
+        "max_drawdown": 0.08506673882818146,
+        "exit_count": 55,
+        "final_equity": 1.3114431204752008
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.5227963525835866,
+        "total_return": 0.4978336878126173,
+        "max_drawdown": 0.1312753073520533,
+        "exit_count": 329,
+        "final_equity": 1.4978336878126173
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5467625899280576,
+        "total_return": 0.37108237635136,
+        "max_drawdown": 0.1363487040729868,
+        "exit_count": 139,
+        "final_equity": 1.37108237635136
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.43373493975903615,
+        "total_return": 0.7962992761700611,
+        "max_drawdown": 0.23378498005949952,
+        "exit_count": 332,
+        "final_equity": 1.7962992761700611
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4647887323943662,
+        "total_return": 0.794062262848277,
+        "max_drawdown": 0.1265481596598844,
+        "exit_count": 142,
+        "final_equity": 1.794062262848277
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.45,
+        "total_return": 0.3600904698249754,
+        "max_drawdown": 0.07842536261929572,
+        "exit_count": 60,
+        "final_equity": 1.3600904698249754
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.525,
+        "total_return": 0.5599943767672273,
+        "max_drawdown": 0.12266684095981707,
+        "exit_count": 320,
+        "final_equity": 1.5599943767672273
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.5413533834586466,
+        "total_return": 0.40214039208429253,
+        "max_drawdown": 0.13634870407298652,
+        "exit_count": 133,
+        "final_equity": 1.4021403920842925
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.4444444444444444,
+        "total_return": 0.9208174219661405,
+        "max_drawdown": 0.21928076819119144,
+        "exit_count": 324,
+        "final_equity": 1.9208174219661405
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.47058823529411764,
+        "total_return": 0.863292619939606,
+        "max_drawdown": 0.1265481596598855,
+        "exit_count": 136,
+        "final_equity": 1.863292619939606
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0001,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.46551724137931033,
+        "total_return": 0.3822664706229679,
+        "max_drawdown": 0.07007902277222638,
+        "exit_count": 58,
+        "final_equity": 1.382266470622968
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.2,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.506993006993007,
+        "total_return": 0.21970474222262992,
+        "max_drawdown": 0.14592155652674252,
+        "exit_count": 286,
+        "final_equity": 1.21970474222263
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0
+      },
+      "metrics": {
+        "win_rate": 0.42214532871972316,
+        "total_return": 0.6347290349022756,
+        "max_drawdown": 0.23427816898518303,
+        "exit_count": 289,
+        "final_equity": 1.6347290349022756
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 5e-05
+      },
+      "metrics": {
+        "win_rate": 0.4365079365079365,
+        "total_return": 0.5169052617415124,
+        "max_drawdown": 0.14140836318816713,
+        "exit_count": 126,
+        "final_equity": 1.5169052617415124
+      }
+    },
+    {
+      "interval": "5m",
+      "params": {
+        "rsi_low": 35,
+        "rsi_high": 70,
+        "bb_width_min": 0.0,
+        "width_slope_min": 0.0002,
+        "stop_atr": 1.5,
+        "fee_mode": "maker",
+        "taker_fee": 5e-05,
+        "maker_fee": 1e-05,
+        "leverage": 10.0,
+        "bb_window": 20,
+        "bb_mult": 2.0,
+        "ma_slope_min": 0.0001
+      },
+      "metrics": {
+        "win_rate": 0.43636363636363634,
+        "total_return": 0.31144312047520084,
+        "max_drawdown": 0.08506673882818146,
+        "exit_count": 55,
+        "final_equity": 1.3114431204752008
+      }
+    }
+  ],
+  "best_overall": {
+    "interval": "5m",
+    "params": {
+      "rsi_low": 30,
+      "rsi_high": 70,
+      "bb_width_min": 0.0,
+      "width_slope_min": 0.0001,
+      "stop_atr": 1.5,
+      "fee_mode": "maker",
+      "taker_fee": 5e-05,
+      "maker_fee": 1e-05,
+      "leverage": 8.0,
+      "bb_window": 20,
+      "bb_mult": 2.0,
+      "ma_slope_min": 5e-05
+    },
+    "metrics": {
+      "win_rate": 0.46153846153846156,
+      "total_return": 0.6530772881394769,
+      "max_drawdown": 0.09225862836910934,
+      "exit_count": 130,
+      "final_equity": 1.6530772881394769
+    }
+  },
+  "generated_at": 1761047871,
+  "defaults": {
+    "symbol": "BTCUSDT",
+    "portfolio_spec": "30m:0.7,5m:0.3",
+    "fee_mode": "maker",
+    "max_dd_limit": 0.1,
+    "concurrent": "both",
+    "init_total": 1000.0,
+    "opt_grid": {
+      "rsi_low": [
+        30,
+        35
+      ],
+      "rsi_high": [
+        65,
+        70
+      ],
+      "bb_width_min": [
+        0.0,
+        0.02,
+        0.03
+      ],
+      "width_slope_min": [
+        0.0,
+        0.0001,
+        0.0002
+      ],
+      "stop_atr": [
+        1.2,
+        1.5
+      ],
+      "bb_window": [
+        20
+      ],
+      "bb_mult": [
+        1.5,
+        2.0
+      ],
+      "leverage": [
+        5.0,
+        8.0,
+        10.0
+      ],
+      "ma_slope_min": [
+        0.0,
+        5e-05,
+        0.0001
+      ]
+    }
+  },
+  "comments": {
+    "usage": "\u7528\u6cd5\u793a\u4f8b:\n- \u76f4\u63a5\u4f7f\u7528\u9ed8\u8ba4\u7ec4\u5408: python3 bb_cycle_backtest.py --portfolio \"30m:0.7,5m:0.3\" --fee_mode maker --max_dd_limit 0.10\n- \u4ece\u914d\u7f6e\u8bfb\u53d6\u9ed8\u8ba4: python3 bb_cycle_backtest.py (\u811a\u672c\u4f1a\u81ea\u52a8\u8bfb\u53d6 defaults)\n- \u5355\u5468\u671f\u56de\u6d4b: python3 bb_cycle_backtest.py --interval 30m --fee_mode maker --max_dd_limit 0.10\n- \u5207\u6362\u6301\u4ed3\u5e76\u8fd0\u884c: python3 bb_cycle_backtest.py --portfolio \"30m:0.7,5m:0.3\" --concurrent 5m_only\n",
+    "concurrent": "concurrent \u63a7\u5236\u662f\u5426\u5141\u8bb8\u4e24\u4e2a\u5468\u671f\u540c\u65f6\u6301\u4ed3:\n- both: \u540c\u65f6\u6301\u4ed3\uff0c\u8d44\u91d1\u6309 portfolio_spec \u6743\u91cd\u72ec\u7acb\u8fd0\u4f5c\u5e76\u5408\u6210\u6743\u76ca\u66f2\u7ebf\u3002\n- 5m_only: \u4ec5\u8fd0\u884c 5m \u5b50\u7b56\u7565\uff0c\u6743\u91cd\u81ea\u52a8\u5f52\u4e00\u4e3a 1.0\u3002\n- 30m_only: \u4ec5\u8fd0\u884c 30m \u5b50\u7b56\u7565\uff0c\u6743\u91cd\u81ea\u52a8\u5f52\u4e00\u4e3a 1.0\u3002\n",
+    "effects": {
+      "rsi_low/high": "\u964d\u4f4e rsi_low \u6216\u63d0\u5347 rsi_high \u4f1a\u589e\u52a0\u5165\u573a\u9891\u6b21\uff0c\u63d0\u5347\u6536\u76ca\u673a\u4f1a\u4f46\u4e5f\u53ef\u80fd\u52a0\u5927\u566a\u97f3\u4e0e\u56de\u64a4\uff1b\u53cd\u4e4b\u66f4\u4fdd\u5b88\u3002",
+      "bb_width_min": "\u63d0\u9ad8\u4e0b\u9650\u80fd\u8fc7\u6ee4\u9707\u8361\u7a84\u5e45\u6bb5\uff0c\u901a\u5e38\u964d\u4f4e\u4ea4\u6613\u6570\u4e0e\u56de\u64a4\uff0c\u4f46\u53ef\u80fd\u9519\u8fc7\u5c0f\u6ce2\u52a8\u6536\u76ca\u3002",
+      "width_slope_min": "\u8981\u6c42\u5bbd\u5ea6\u6269\u5f20\u7684\u659c\u7387\u4e3a\u6b63\u80fd\u66f4\u503e\u5411\u8d8b\u52bf\u6269\u5f20\u6bb5\uff0c\u51cf\u5c11\u53cd\u590d\u6253\u8138\u3002",
+      "stop_atr": "\u6b62\u635f\u8ddd\u79bb=ATR*mult\uff0c\u6570\u503c\u8d8a\u5927\u6b62\u635f\u8d8a\u5bbd\uff0c\u80dc\u7387\u63d0\u5347\u4f46\u5355\u7b14\u4e8f\u635f\u53d8\u5927\uff0c\u56de\u64a4\u53ef\u80fd\u4e0a\u5347\u3002",
+      "bb_window/bb_mult": "\u7a97\u53e3\u8d8a\u5927\u8d8a\u5e73\u6ed1\uff0cmult \u8d8a\u5927\u4e0a\u4e0b\u8f68\u8d8a\u8fdc\uff0c\u89e6\u8f68\u6b21\u6570\u53d8\u5c11\uff0c\u7b56\u7565\u66f4\u4fdd\u5b88\u3002",
+      "ma_slope_min": "\u8981\u6c42\u5747\u7ebf\u659c\u7387\u8fc7\u6ee4\u975e\u8d8b\u52bf\u6bb5\uff0c\u589e\u5927\u9608\u503c\u66f4\u4fdd\u5b88\uff08\u4ea4\u6613\u66f4\u5c11\u3001\u56de\u64a4\u66f4\u4f4e\uff09\u3002",
+      "leverage": "\u6760\u6746\u7ebf\u6027\u653e\u5927\u6536\u76ca\u4e0e\u56de\u64a4\uff0c\u5efa\u8bae\u7ed3\u5408 max_dd_limit \u505a\u7ea6\u675f\uff0c\u907f\u514d\u8fc7\u5ea6\u98ce\u9669\u3002",
+      "fee_mode": "maker/taker \u6210\u672c\u5dee\u5f02\u5f71\u54cd\u9891\u7e41\u4ea4\u6613\u6bb5\u7684\u51c0\u6536\u76ca\uff1bmaker \u66f4\u9002\u5408\u9ad8\u9891\u89e6\u53d1\u3002",
+      "weights": "\u63d0\u9ad8 5m \u6743\u91cd\u901a\u5e38\u63d0\u5347\u6536\u76ca\u4e0e\u6ce2\u52a8\uff1b\u63d0\u9ad8 30m \u6743\u91cd\u901a\u5e38\u66f4\u7a33\u5065\u3001\u56de\u64a4\u66f4\u4f4e\u3002",
+      "max_dd_limit": "\u6536\u7d27\u8be5\u503c\u4f1a\u504f\u5411\u7a33\u5065\u53c2\u6570\uff0c\u6536\u76ca\u53ef\u80fd\u4e0b\u964d\uff0c\u4f46\u7ec4\u5408\u6700\u5927\u56de\u64a4\u4e5f\u4f1a\u540c\u6b65\u964d\u4f4e\u3002"
+    },
+    "notes": "\u6240\u6709\u53c2\u6570\u53ef\u5728 defaults \u4e2d\u76f4\u63a5\u4fee\u6539\uff1bopt_grid \u5f71\u54cd\u4f18\u5316\u5668\u7684\u641c\u7d22\u7a7a\u95f4\uff0c\u8d8a\u5927\u8d8a\u8017\u65f6\u4f46\u8986\u76d6\u66f4\u5e7f\u3002\n\u7ec4\u5408\u7684\u671f\u672b\u6743\u76ca\u8868\u793a\u76f8\u5bf9\u521d\u59cb\u8d44\u91d1\u7684\u6bd4\u4f8b\uff08\u4f8b\u5982 147.97% \u2248 \u521d\u59cb 1000 \u53d8\u4e3a 1479.7\uff09\u3002\n\u5b9e\u76d8\u9700\u8003\u8651\u6ed1\u70b9\u4e0e\u88ab\u52a8\u6210\u4ea4\u6bd4\u4f8b\uff0c\u53ef\u8fdb\u4e00\u6b65\u52a0\u5165 passive_fill_ratio \u7b49\u53c2\u6570\u6a21\u62df\u3002"
+  },
+  "portfolio": {
+    "spec": "30m:0.7,5m:0.3",
+    "concurrent": "both",
+    "sub_strategies": [
+      {
+        "interval": "30m",
+        "weight": 0.7,
+        "params": {
+          "rsi_low": 35,
+          "rsi_high": 70,
+          "bb_width_min": 0.0,
+          "width_slope_min": 0.0,
+          "stop_atr": 1.5,
+          "fee_mode": "maker",
+          "taker_fee": 5e-05,
+          "maker_fee": 1e-05,
+          "leverage": 8.0,
+          "bb_window": 20,
+          "bb_mult": 2.0,
+          "ma_slope_min": 5e-05
+        },
+        "metrics": {
+          "win_rate": 0.45901639344262296,
+          "total_return": 0.4053446295535663,
+          "max_drawdown": 0.0838953706456082,
+          "exit_count": 61
+        }
+      },
+      {
+        "interval": "5m",
+        "weight": 0.3,
+        "params": {
+          "rsi_low": 30,
+          "rsi_high": 70,
+          "bb_width_min": 0.0,
+          "width_slope_min": 0.0001,
+          "stop_atr": 1.5,
+          "fee_mode": "maker",
+          "taker_fee": 5e-05,
+          "maker_fee": 1e-05,
+          "leverage": 8.0,
+          "bb_window": 20,
+          "bb_mult": 2.0,
+          "ma_slope_min": 5e-05
+        },
+        "metrics": {
+          "win_rate": 0.46153846153846156,
+          "total_return": 0.6530772881394769,
+          "max_drawdown": 0.09225862836910934,
+          "exit_count": 130
+        }
+      }
+    ],
+    "combined": {
+      "final_equity": 1.4796644271293393,
+      "total_return": 0.4796644271293393,
+      "max_drawdown": 0.06266389266866125,
+      "equity_curve": [
+        1.0,
+        1.0,
+        1.0,
+        0.999976,
+        1.0000391711753318,
+        0.9999831711753318,
+        1.0056382269166129,
+        1.0055817789921537,
+        1.0103218929184659,
+        1.010297889784772,
+        1.018486085448807,
+        1.017560080414207,
+        1.0175354982255134,
+        1.0152400964299244,
+        1.0152156998399495,
+        1.0176826355682485,
+        1.0176580435751423,
+        1.0291875041902376,
+        1.0265776708654122,
+        1.0265208482476729,
+        1.041340334888493,
+        1.0413150312925634,
+        1.0401383380313072,
+        1.0401131305951261,
+        1.0429558131882841,
+        1.0428978095574226,
+        1.0459490647975902,
+        1.0458908217066003,
+        1.0378989434000965,
+        1.0378413443188181,
+        1.0281534211202477,
+        1.028096601680752,
+        1.0364611046356265,
+        1.0364036205814495,
+        1.049935083843963,
+        1.0499096510097692,
+        1.0487989009462582,
+        1.0487735590066962,
+        1.0501860839772286,
+        1.050160631063024,
+        1.047995778902226,
+        1.0479372169297125,
+        1.0429523076950282,
+        1.0428941492002108,
+        1.0214055853001054,
+        1.0213491505430798,
+        1.0103644794193445,
+        1.0103089279507893,
+        1.0102836502609909,
+        1.0103540713325982,
+        1.0103287900313291,
+        1.0216785199466605,
+        1.0177015064052397,
+        1.0971418851564845,
+        1.1068152620024225,
+        1.106752585877537,
+        1.0935684341978895,
+        1.0935068178192286,
+        1.0896325797621664,
+        1.0896067106660916,
+        1.090245262773983,
+        1.0902193446632673,
+        1.094654493250141,
+        1.0946282224009871,
+        1.0937566003002601,
+        1.093730401282542,
+        1.094184900835113,
+        1.0941586675533523,
+        1.093232658231678,
+        1.0932065011293257,
+        1.0912183922172962,
+        1.0911923962562253,
+        1.0871743921839871,
+        1.0871487197429186,
+        1.0790203651389092,
+        1.0789953450200043,
+        1.0787116251206863,
+        1.0786866297009827,
+        1.0789922531450251,
+        1.0789672352750799,
+        1.081090561855433,
+        1.0810653761207907,
+        1.0948286053021778,
+        1.0919543327900654,
+        1.0919282779537482,
+        1.0936456459106645,
+        1.093619455769298,
+        1.0941835824372497,
+        1.0941573492609609,
+        1.1004921677809612,
+        1.0983270582706242,
+        1.098265756760318,
+        1.0623504152941126,
+        1.062323850639757,
+        1.0573164712051268,
+        1.0572580478262588,
+        1.1395284386914073,
+        1.1417638209120513,
+        1.1416986417452066,
+        1.1395853784930101,
+        1.1395592165541817,
+        1.1405191039737699,
+        1.1404928673369032,
+        1.142175518551552,
+        1.142149149401519,
+        1.1426831346132207,
+        1.1426567248539028,
+        1.1415385438713215,
+        1.141512225679263,
+        1.1548378939758044,
+        1.1548353345267792,
+        1.1547703296353284,
+        1.1781856730783569,
+        1.1781582911430457,
+        1.178802948016706,
+        1.1787755166993998,
+        1.178012999209362,
+        1.1779856310879604,
+        1.1767386524603447,
+        1.176711386286683,
+        1.1738545277248011,
+        1.1738274922811183,
+        1.1727343616181498,
+        1.1727074157877553,
+        1.1628407726168348,
+        1.1627738996982995,
+        1.1545766926527463,
+        1.1545104808606081,
+        1.1936821984135964,
+        1.187049210184751,
+        1.187023055841477,
+        1.1862436715263507,
+        1.1862175816261693,
+        1.1858962186268123,
+        1.1858274090332717,
+        1.1690949783209035,
+        1.1690275128265872,
+        1.1659785786233816,
+        1.165911362441041,
+        1.1658853003370917,
+        1.1653989390675699,
+        1.1653729179574903,
+        1.1638880156022873,
+        1.1638621153660846,
+        1.164200338094332,
+        1.2672996462156485,
+        1.2541050255907784,
+        1.2540791003687768,
+        1.2525500009759312,
+        1.2524755977958857,
+        1.2314658609677915,
+        1.231393144518947,
+        1.2507048463006807,
+        1.2506790454806482,
+        1.24980418517251,
+        1.2497299296048385,
+        1.309284669897885,
+        1.2806786355252702,
+        1.280652906758128,
+        1.2837543903716528,
+        1.2837284155441224,
+        1.2813236881870662,
+        1.2812979078157112,
+        1.2788779595039679,
+        1.2788523747909073,
+        1.2780616130614801,
+        1.2779848875377806,
+        1.2637278527490738,
+        1.2637023333437287,
+        1.2620104781805532,
+        1.2619850961651737,
+        1.2588008094839434,
+        1.2587756842420592,
+        1.2577773588358252,
+        1.257752315469993,
+        1.257971125513314,
+        1.2579460666461475,
+        1.259281883336826,
+        1.2592567196090338,
+        1.2591922441198915,
+        1.2591670875632366,
+        1.2594379726902007,
+        1.2594127964752602,
+        1.259633785430867,
+        1.2595582066079924,
+        1.3081525017507447,
+        1.3006212913318445,
+        1.3005960994518848,
+        1.3010405495985997,
+        1.3010153241779787,
+        1.2976771431258278,
+        1.2976521867777246,
+        1.2969795617986353,
+        1.2969546612570382,
+        1.3075199609934884,
+        1.3058957239353424,
+        1.3058168661119958,
+        1.3079554968005156,
+        1.3078764741953397,
+        1.3021590783610417,
+        1.3020805194693408,
+        1.2866277133328499,
+        1.2865503969503513,
+        1.2914716411842384,
+        1.2914460273496704,
+        1.2913779401289793,
+        1.291352333790496,
+        1.2931988894438884,
+        1.2931731374294597,
+        1.2979602948105198,
+        1.3060855545119299,
+        1.3061612768952893,
+        1.3061344878898644,
+        1.3053834097755634,
+        1.3053566829995085,
+        1.3037855800733222,
+        1.3037078761765957,
+        1.2986076394581791,
+        1.2985303497967016,
+        1.3036819375385957,
+        1.3036042419332718,
+        1.2845742414226191,
+        1.28454764247294,
+        1.28414451370875,
+        1.284117949137288,
+        1.2826515916896069,
+        1.2826251465519063,
+        1.2817390079255484,
+        1.281712635794549,
+        1.2826597811553875,
+        1.2826333353625297,
+        1.2810843744374427,
+        1.281008207447808,
+        1.2722727790449477,
+        1.2721973169829446,
+        1.240573434198071,
+        1.2405005080836553,
+        1.2457348336190728,
+        1.2456614945927038,
+        1.2456351748323835,
+        1.2541372442075653,
+        1.2532336368589783,
+        1.2532073914928268,
+        1.253259970301447,
+        1.2531859569766501,
+        1.2380179999273864,
+        1.2379917524545594,
+        1.2374805756056677,
+        1.2374543711267865,
+        1.2341507336017337,
+        1.2341247955102126,
+        1.232631197562003,
+        1.2326053810333653,
+        1.232828221970218,
+        1.2328023896796276,
+        1.2333416325184225,
+        1.2332688385512551,
+        1.2819592872466279,
+        1.2819334138831937,
+        1.2768234737088455,
+        1.2859012080935386,
+        1.2985025802338692,
+        1.3146194490307244,
+        1.3109904655303295,
+        1.3109618608774185,
+        1.3221489470486605,
+        1.322119449717228,
+        1.3219138811777484,
+        1.3218376065934168,
+        1.3201757999341308,
+        1.3201463214079678,
+        1.316695523821642,
+        1.31661938828381,
+        1.3704788524379097,
+        1.3570349101594301,
+        1.3570057100553565,
+        1.3525514577037985,
+        1.3525226162759214,
+        1.349912350129126,
+        1.3498329874403872,
+        1.3398935760871546,
+        1.3398150149003392,
+        1.3350475280473901,
+        1.335018897748119,
+        1.3339795133310517,
+        1.3339509684729578,
+        1.331674171751949,
+        1.3316458113211813,
+        1.3321629686128895,
+        1.3321345690783728,
+        1.3327266211322153,
+        1.3326981765054973,
+        1.331575770092069,
+        1.331547417533434,
+        1.3256598071543106,
+        1.325581633651338,
+        1.421045079464798,
+        1.3320247424094864,
+        1.3319968631278867,
+        1.394829941769968
+      ]
+    }
+  }
+}
